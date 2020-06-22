@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [apiTest.testEndPoints.TestGetCountryName]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="apiTest.testEndPoints.TestGetCountryName">
+        <methods>
+          <include name="testValidateEachCoutryCapitalCity" invocation-numbers="0 1 2 3 4"/>
+          <include name="testAcountryInDetail"/>
+          <include name="testValidateEachCoutryByCoutnryCode" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- apiTest.testEndPoints.TestGetCountryName -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [apiTest.testEndPoints.TestGetCountryName] -->

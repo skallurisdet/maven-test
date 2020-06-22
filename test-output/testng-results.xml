@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="12" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-22T17:46:27 EDT" name="Default suite" finished-at="2020-06-22T17:46:30 EDT" duration-ms="3074">
+    <groups>
+    </groups>
+    <test started-at="2020-06-22T17:46:27 EDT" name="Default test" finished-at="2020-06-22T17:46:30 EDT" duration-ms="3074">
+      <class name="apiTest.testEndPoints.TestGetCountryName">
+        <test-method signature="testAcountryInDetail()[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:27 EDT" name="testAcountryInDetail" finished-at="2020-06-22T17:46:28 EDT" duration-ms="1416" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at apiTest.testEndPoints.TestGetCountryName.testAcountryInDetail(TestGetCountryName.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAcountryInDetail -->
+        <test-method signature="testValidateEachCoutryByCoutnryCode(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:28 EDT" name="testValidateEachCoutryByCoutnryCode" data-provider="countryCodeData" finished-at="2020-06-22T17:46:28 EDT" duration-ms="159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[af]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kabul]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateEachCoutryByCoutnryCode -->
+        <test-method signature="testValidateEachCoutryByCoutnryCode(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:28 EDT" name="testValidateEachCoutryByCoutnryCode" data-provider="countryCodeData" finished-at="2020-06-22T17:46:28 EDT" duration-ms="149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[et]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Addis Ababa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateEachCoutryByCoutnryCode -->
+        <test-method signature="testValidateEachCoutryByCoutnryCode(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:28 EDT" name="testValidateEachCoutryByCoutnryCode" data-provider="countryCodeData" finished-at="2020-06-22T17:46:28 EDT" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Washington, D.C.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateEachCoutryByCoutnryCode -->
+        <test-method signature="testValidateEachCoutryByCoutnryCode(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:28 EDT" name="testValidateEachCoutryByCoutnryCode" data-provider="countryCodeData" finished-at="2020-06-22T17:46:29 EDT" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateEachCoutryByCoutnryCode -->
+        <test-method signature="testValidateEachCoutryCapitalCity(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:29 EDT" name="testValidateEachCoutryCapitalCity" data-provider="countryNameData" finished-at="2020-06-22T17:46:29 EDT" duration-ms="105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Afghanistan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kabul]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateEachCoutryCapitalCity -->
+        <test-method signature="testValidateEachCoutryCapitalCity(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:29 EDT" name="testValidateEachCoutryCapitalCity" data-provider="countryNameData" finished-at="2020-06-22T17:46:29 EDT" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ethiopia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Addis Ababa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateEachCoutryCapitalCity -->
+        <test-method signature="testValidateEachCoutryCapitalCity(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:29 EDT" name="testValidateEachCoutryCapitalCity" data-provider="countryNameData" finished-at="2020-06-22T17:46:29 EDT" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[United States Of America]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Washington, D.C.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateEachCoutryCapitalCity -->
+        <test-method signature="testValidateEachCoutryCapitalCity(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:29 EDT" name="testValidateEachCoutryCapitalCity" data-provider="countryNameData" finished-at="2020-06-22T17:46:29 EDT" duration-ms="96" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Washington, D.C.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Washington, D.C.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Washington, D.C.] but found []
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryCapitalCity(TestGetCountryName.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateEachCoutryCapitalCity -->
+        <test-method signature="testValidateEachCoutryCapitalCity(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:29 EDT" name="testValidateEachCoutryCapitalCity" data-provider="countryNameData" finished-at="2020-06-22T17:46:29 EDT" duration-ms="80" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Delhi]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [New Delhi] but found [Diego Garcia]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [New Delhi] but found [Diego Garcia]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryCapitalCity(TestGetCountryName.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateEachCoutryCapitalCity -->
+        <test-method signature="testValidateEachCoutryCapitalCity(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:29 EDT" name="testValidateEachCoutryCapitalCity" data-provider="countryNameData" finished-at="2020-06-22T17:46:29 EDT" duration-ms="106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Belgium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brussels]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateEachCoutryCapitalCity -->
+        <test-method signature="testValidateEachCoutryCapitalCity(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:29 EDT" name="testValidateEachCoutryCapitalCity" data-provider="countryNameData" finished-at="2020-06-22T17:46:29 EDT" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Netherlands]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amsterdam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateEachCoutryCapitalCity -->
+        <test-method signature="testValidateEachCoutryCapitalCity(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:29 EDT" name="testValidateEachCoutryCapitalCity" data-provider="countryNameData" finished-at="2020-06-22T17:46:29 EDT" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Madrid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateEachCoutryCapitalCity -->
+        <test-method signature="testValidateEachCoutryCapitalCity(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:29 EDT" name="testValidateEachCoutryCapitalCity" data-provider="countryNameData" finished-at="2020-06-22T17:46:30 EDT" duration-ms="100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Denmark]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Copenhagen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateEachCoutryCapitalCity -->
+        <test-method signature="testValidateEachCoutryCapitalCity(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testEndPoints.TestGetCountryName@14a2f921]" started-at="2020-06-22T17:46:30 EDT" name="testValidateEachCoutryCapitalCity" data-provider="countryNameData" finished-at="2020-06-22T17:46:30 EDT" duration-ms="90" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Finland]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Helsinki]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateEachCoutryCapitalCity -->
+      </class> <!-- apiTest.testEndPoints.TestGetCountryName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

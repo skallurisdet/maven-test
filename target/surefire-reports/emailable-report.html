@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">10</td><td class="num">248</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="10">apiTest.testEndPoints.TestGetCountryName</td><td><a href="#m0">testAcountryInDetail</a></td><td rowspan="1">1592594384568</td><td rowspan="1">198</td></tr><tr class="failedeven"><td><a href="#m1">testValidateEachCoutryByCoutnryCode</a></td><td rowspan="4">1592594384781</td><td rowspan="4">0</td></tr><tr class="failedeven"><td><a href="#m2">testValidateEachCoutryByCoutnryCode</a></td></tr><tr class="failedeven"><td><a href="#m3">testValidateEachCoutryByCoutnryCode</a></td></tr><tr class="failedeven"><td><a href="#m4">testValidateEachCoutryByCoutnryCode</a></td></tr><tr class="failedeven"><td><a href="#m5">testValidateEachCoutryCapitalCity</a></td><td rowspan="5">1592594384785</td><td rowspan="5">0</td></tr><tr class="failedeven"><td><a href="#m6">testValidateEachCoutryCapitalCity</a></td></tr><tr class="failedeven"><td><a href="#m7">testValidateEachCoutryCapitalCity</a></td></tr><tr class="failedeven"><td><a href="#m8">testValidateEachCoutryCapitalCity</a></td></tr><tr class="failedeven"><td><a href="#m9">testValidateEachCoutryCapitalCity</a></td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">apiTest.testEndPoints.TestGetCountryName</td><td><a href="#m10">TEstgetCountrySerachByFullName</a></td><td rowspan="1">1592594384564</td><td rowspan="1">2</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">apiTest.testEndPoints.TestGetCountryName#testAcountryInDetail</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+	at io.restassured.config.ObjectMapperConfig.&lt;init&gt;(ObjectMapperConfig.java:49)
+	at io.restassured.config.RestAssuredConfig.&lt;init&gt;(RestAssuredConfig.java:41)
+	at io.restassured.RestAssured.&lt;clinit&gt;(RestAssured.java:420)
+	at apiTest.testEndPoints.TestGetCountryName.testAcountryInDetail(TestGetCountryName.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 36 more
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">apiTest.testEndPoints.TestGetCountryName#testValidateEachCoutryByCoutnryCode</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>in</td><td>New Delhi</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryByCoutnryCode(TestGetCountryName.java:119)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">apiTest.testEndPoints.TestGetCountryName#testValidateEachCoutryByCoutnryCode</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>af</td><td>Kabul</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryByCoutnryCode(TestGetCountryName.java:119)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">apiTest.testEndPoints.TestGetCountryName#testValidateEachCoutryByCoutnryCode</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>us</td><td>Washington, D.C.</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryByCoutnryCode(TestGetCountryName.java:119)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">apiTest.testEndPoints.TestGetCountryName#testValidateEachCoutryByCoutnryCode</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>et</td><td>Addis Ababa</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryByCoutnryCode(TestGetCountryName.java:119)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">apiTest.testEndPoints.TestGetCountryName#testValidateEachCoutryCapitalCity</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>India</td><td>New Delhi</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryCapitalCity(TestGetCountryName.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">apiTest.testEndPoints.TestGetCountryName#testValidateEachCoutryCapitalCity</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Ethiopia</td><td>Addis Ababa</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryCapitalCity(TestGetCountryName.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">apiTest.testEndPoints.TestGetCountryName#testValidateEachCoutryCapitalCity</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>United States Of America</td><td>Washington, D.C.</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryCapitalCity(TestGetCountryName.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">apiTest.testEndPoints.TestGetCountryName#testValidateEachCoutryCapitalCity</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Afghanistan</td><td>Kabul</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryCapitalCity(TestGetCountryName.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">apiTest.testEndPoints.TestGetCountryName#testValidateEachCoutryCapitalCity</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>United States</td><td>Washington, D.C.</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryCapitalCity(TestGetCountryName.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">apiTest.testEndPoints.TestGetCountryName#TEstgetCountrySerachByFullName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

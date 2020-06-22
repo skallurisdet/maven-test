@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: apiTest.testEndPoints.TestGetCountryName
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.828 sec <<< FAILURE! - in apiTest.testEndPoints.TestGetCountryName
+testAcountryInDetail(apiTest.testEndPoints.TestGetCountryName)  Time elapsed: 0.206 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+	at apiTest.testEndPoints.TestGetCountryName.testAcountryInDetail(TestGetCountryName.java:37)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+	at apiTest.testEndPoints.TestGetCountryName.testAcountryInDetail(TestGetCountryName.java:37)
+
+testValidateEachCoutryByCoutnryCode(apiTest.testEndPoints.TestGetCountryName)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryByCoutnryCode(TestGetCountryName.java:119)
+
+testValidateEachCoutryByCoutnryCode(apiTest.testEndPoints.TestGetCountryName)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryByCoutnryCode(TestGetCountryName.java:119)
+
+testValidateEachCoutryByCoutnryCode(apiTest.testEndPoints.TestGetCountryName)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryByCoutnryCode(TestGetCountryName.java:119)
+
+testValidateEachCoutryByCoutnryCode(apiTest.testEndPoints.TestGetCountryName)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryByCoutnryCode(TestGetCountryName.java:119)
+
+testValidateEachCoutryCapitalCity(apiTest.testEndPoints.TestGetCountryName)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryCapitalCity(TestGetCountryName.java:80)
+
+testValidateEachCoutryCapitalCity(apiTest.testEndPoints.TestGetCountryName)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryCapitalCity(TestGetCountryName.java:80)
+
+testValidateEachCoutryCapitalCity(apiTest.testEndPoints.TestGetCountryName)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryCapitalCity(TestGetCountryName.java:80)
+
+testValidateEachCoutryCapitalCity(apiTest.testEndPoints.TestGetCountryName)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryCapitalCity(TestGetCountryName.java:80)
+
+testValidateEachCoutryCapitalCity(apiTest.testEndPoints.TestGetCountryName)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at apiTest.testEndPoints.TestGetCountryName.testValidateEachCoutryCapitalCity(TestGetCountryName.java:80)
+
